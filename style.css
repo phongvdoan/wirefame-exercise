@@ -1,0 +1,107 @@
+@import "reset.css";
+
+header {
+  background-color: rgb(68,68,68);
+  width: 100%;
+  height: 100px;
+  color: rgb(112,112,112);
+}
+
+
+
+ul {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+  min-width: 450px;
+  height: 100px;
+}
+
+
+
+li {
+  display: inline-block;
+  padding: 26px;
+  bottom: 29px;
+  margin: 30px;
+  /* border: 1px solid black; */
+  position: relative; 
+}
+
+ main > div > img {
+  position: relative;
+  left: 15%; 
+  margin: 30px;
+  
+}
+section > div {
+  display: inline-block;
+  position: relative;
+  left: 16%;
+  margin: 0 auto;
+}
+section > div > img {
+  margin: 10px 15px;
+}
+main > article {
+  position: relative;
+  left: 17%;
+  margin: 0 auto;
+}
+
+main > article > img {
+  float:left;
+}
+
+h2 {
+  display: inline;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  left: 2%;
+}
+
+main > article > p {
+  position: relative;
+  width: 460px;
+  height: 300px;
+  overflow: scroll;
+  left: 2%;
+
+}
+
+button {
+  background-color: #ddd;
+  color: white;
+  position: relative;
+  width: 245px;
+  padding: 15px 0 15px 0;
+  margin: 35px 0 0 0;
+  font-size: 14px;
+  left: 2%;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer > div {
+  background-color: rgb(68,68,68);
+  margin: 30px 0 0 0;
+  height: 80px;
+}
+
+/* li {
+  display: inline;
+  padding: 0 30px 0 30px;
+  bottom: 30px;
+} */
+
+/* .headerLogo {
+
+  display: inline;
+} */
+
